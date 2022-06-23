@@ -26,7 +26,7 @@ mods.RussianLanguagePack = {
 	print = function(...) if mods.RussianLanguagePack.debug then print("[RLP_DEBUG] " .. (...))  end end,
 	
 	UpdateLogFileName = "updatelog.txt",
-	MainPOfilename = "DST.po",
+	MainPOfilename = "russian.po",
 	ModsPOfilename = "MODS.po",
 	TranslationTypes = {Full = "Full", InterfaceChat = "InterfaceChat", ChatOnly = "ChatOnly"},
 	ModTranslationTypes = {enabled = "enabled", disabled = "disabled"},
